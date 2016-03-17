@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rspec-matchers-be_an_array_of (0.2)
+    rspec-matchers-be_an_array_of (0.2.0)
       rspec
       rspec-matcher
 
