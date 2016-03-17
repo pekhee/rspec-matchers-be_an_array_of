@@ -1,13 +1,13 @@
 $LOAD_PATH.push File.expand_path("../lib", __FILE__)
-require "rspec_be_an_array_of/identity"
+require "rspec/matchers/be_an_array_of/identity"
 
 Gem::Specification.new do |spec|
-  spec.name = RSpecBeAnArrayOf::Identity.name
-  spec.version = RSpecBeAnArrayOf::Identity.version
+  spec.name = RSpec::Matchers::BeAnArrayOf::Identity.name
+  spec.version = RSpec::Matchers::BeAnArrayOf::Identity.version
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Pooyan Khosravi"]
   spec.email = ["pekhee@gmail.com"]
-  spec.homepage = "https://github.com//rspec_be_an_array_of"
+  spec.homepage = "https://github.com/pekhee/rspec-matchers-be_an_array_of"
   spec.summary = "rspec matcher be_an_array_of type"
   spec.description =
     "An RSpec matcher that ensures expected is an array and each element is of specified type."
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rspec"
+  spec.add_dependency "rspec-matcher"
 
   spec.add_development_dependency "rake"
   spec.add_development_dependency "gemsmith"

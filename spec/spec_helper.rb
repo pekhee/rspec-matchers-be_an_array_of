@@ -5,7 +5,7 @@ if ENV["CI"]
   CodeClimate::TestReporter.start
 end
 
-require "rspec_be_an_array_of"
+require "rspec/matchers/be_an_array_of"
 
 Dir[File.join(File.dirname(__FILE__), "support/extensions/**/*.rb")].each { |file| require file }
 Dir[File.join(File.dirname(__FILE__), "support/kit/**/*.rb")].each { |file| require file }
