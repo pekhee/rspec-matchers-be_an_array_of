@@ -1,10 +1,10 @@
 # RSpec Matcher `be_an_array_of`
 
-[![Gem Version](https://badge.fury.io/rb/rspec_be_an_array_of.svg)](http://badge.fury.io/rb/rspec_be_an_array_of)
-[![Code Climate GPA](https://codeclimate.com/github/pekhee/rspec_be_an_array_of.svg)](https://codeclimate.com/github/pekhee/rspec_be_an_array_of)
-[![Test Coverage](https://codeclimate.com/github/pekhee/rspec_be_an_array_of/badges/coverage.svg)](https://codeclimate.com/github/pekhee/rspec_be_an_array_of/coverage)
-[![Gemnasium Status](https://gemnasium.com/pekhee/rspec_be_an_array_of.svg)](https://gemnasium.com/pekhee/rspec_be_an_array_of)
-[![Travis CI Status](https://secure.travis-ci.org/pekhee/rspec_be_an_array_of.svg)](https://travis-ci.org/pekhee/rspec_be_an_array_of)
+[![Gem Version](https://badge.fury.io/rb/rspec-matchers-be_an_array_of.svg)](http://badge.fury.io/rb/rspec-matchers-be_an_array_of)
+[![Code Climate GPA](https://codeclimate.com/github/pekhee/rspec-matchers-be_an_array_of.svg)](https://codeclimate.com/github/pekhee/rspec-matchers-be_an_array_of)
+[![Test Coverage](https://codeclimate.com/github/pekhee/rspec-matchers-be_an_array_of/badges/coverage.svg)](https://codeclimate.com/github/pekhee/rspec-matchers-be_an_array_of/coverage)
+[![Gemnasium Status](https://gemnasium.com/pekhee/rspec-matchers-be_an_array_of.svg)](https://gemnasium.com/pekhee/rspec-matchers-be_an_array_of)
+[![Travis CI Status](https://secure.travis-ci.org/pekhee/rspec-matchers-be_an_array_of.svg)](https://travis-ci.org/pekhee/rspec-matchers-be_an_array_of)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -37,11 +37,11 @@ class's ancestors.
 
 To install, type the following:
 
-    gem install rspec_be_an_array_of
+    gem install rspec-matchers-be_an_array_of
 
 Add the following to your Gemfile:
 
-    gem "rspec_be_an_array_of"
+    gem "rspec-matchers-be_an_array_of"
 
 # Usage
 
